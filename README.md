@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version 2.6.3
 
-Things you may want to cover:
+* Rails version 6.0.1
 
-* Ruby version
+* Database initialization psql (PostgreSQL) 12.1
 
-* System dependencies
+# How to use
 
-* Configuration
+1. clone project
+```bash
+git clone https://github.com/River-Ye/money-tracker.git
+```
 
-* Database creation
+2. `rails bundle`
 
-* Database initialization
+3. `yarn install --check-files`
 
-* How to run the test suite
+4. `rails db:migrate:reset`
 
-* Services (job queues, cache servers, search engines, etc.)
+5. run project
+```bash
+foreman start
 
-* Deployment instructions
+# or
 
-* ...
+foreman s
+```
